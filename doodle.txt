@@ -1,0 +1,8 @@
+
+Goal to check winner
+check if there are 3 same symbols in a row
+ iterate over elements in each row starting from 1 and go to 2
+ add a same symbol counter (value = previous value ) increase similarity count by one, i.e if similarity count is 2 then we have a winner
+
+ now the sim logic for columns
+ 
