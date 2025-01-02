@@ -1,5 +1,7 @@
 gameboard = [['','',''],['','',''],['','','']];
 
+
+
 function createPlayer(name, style) {return {name, style, position:[]}}
 
 function checkWinner(){
@@ -55,7 +57,30 @@ function checkWinner(){
     console.log(winner);
 }
 
-checkWinner();
+function renderGrid(){
+
+    
+
+    for(x=1; x<=3;x++){
+        
+        for(i=1; i<=3;i++){
+
+            let row = document.querySelector('.gamebox > div:nth-child(' + x + ')');
+            let rowSelector = '.gamebox > div:nth-child(' + x + ')';
+            let cell = document.querySelector(rowSelector + '> div:nth-child(' + i + ')' + ' > p');
+            console.log(cell);
+            val = gameboard[x-1][i-1];
+            cell.innerHTML = val;
+
+
+        }
+    }
+
+}
+
+
+
+renderGrid();
 
 
 
