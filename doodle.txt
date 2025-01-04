@@ -5,4 +5,24 @@ check if there are 3 same symbols in a row
  add a same symbol counter (value = previous value ) increase similarity count by one, i.e if similarity count is 2 then we have a winner
 
  now the sim logic for columns
+
+
+functionality to add - 
+
+game reset
+start game only when clicked on start
+when cell is clicked update p.innerhtml and update gameboard
+
+
+When I click the grid I want two things to happen -
+  
+  update gameboard
+  the turn should change and stay there until it another board is clicked
+
+  update symbol 
+    symbol should be player whose turn it is
+
+how do I make turns?
+
+
  

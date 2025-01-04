@@ -45,3 +45,22 @@ div{
     position: absolute;
     font-size: calc(var(--gameWidth)/3);
 }
+
+.menu{
+    flex-direction: column;
+    margin-top: calc((100vh - var(--gameWidth))/2);
+    margin-left: calc((100vw - var(--gameWidth))/18);
+    width: calc((100vw - var(--gameWidth))/4) ;
+}
+
+input{
+    height: 3vh;
+    width: 15vw;
+    padding-left: 1vh;
+    border-radius: 1vw;
+    margin-bottom: 2vh;
+}
+
+.menu > h2 {
+    margin-top: 4vh;
+}
